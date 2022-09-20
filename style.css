@@ -120,3 +120,14 @@ input[type=submit]:hover{background-color: #45a049;}
 
 nav{display: block;}
 
+@media(max-width: 810px) {
+    #navbar {
+      position: relative;
+      width: 100%;
+      border-style: none;
+      height: auto;
+    }
+    .nav-link {
+      max-height: 100%;
+      width: 100%;
+    }
