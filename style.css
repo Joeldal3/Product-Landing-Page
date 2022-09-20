@@ -1,4 +1,4 @@
-body {margin:auto;
+body {margin:0;
     background: #eee;
     font-family: Besley, serif;
     max-width: 100%;
@@ -8,8 +8,6 @@ body {margin:auto;
     background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);}
 
-    #page-wrap{width: 800px;
-    margin: 0 auto;}
 
    .header{
     display: grid;
@@ -42,9 +40,10 @@ justify-content: center;}
         margin: 0px;
         padding: 0px;
         gap: 16px;
+        font-size: 20px;
         
       }
-      .nav-bar{
+      #nav-bar{
         position: absolute;
         width: 100%;
         top: 0;
@@ -118,3 +117,6 @@ border-radius: 4px;
 cursor: pointer;}
 
 input[type=submit]:hover{background-color: #45a049;}
+
+nav{display: block;}
+
